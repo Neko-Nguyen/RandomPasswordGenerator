@@ -1,0 +1,72 @@
+html {
+   font-family: "Kode Mono", monospace;
+   background-color: #f2f7f3;
+   margin: 0;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: #d9d8c3;
+   color: #014421;
+   width: 500px;
+   margin: 50px auto;
+   padding: 50px;
+   border-radius: 10px;
+}
+
+header {
+   border-bottom: 2px solid #111d16;
+}
+
+h1 {
+   margin: 0;
+   font-weight: 700;
+}
+
+p {
+   font-weight: 550;
+}
+
+main {
+   padding-top: 20px;
+}
+
+#generate-btn {
+   font-family: "Kode Mono", monospace;
+   font-size: 1rem;
+   font-weight: 700;
+   padding: 5px 30px;
+   background-color: #222222;
+   color: #f2f7f3;
+   border: none;
+   border-radius: 5px;
+}
+
+#password-box {
+   background-color: #f2f7f3;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px 0;
+}
+
+#password {
+   padding: 0 20px;
+   height: 20px;
+}
+
+#copy-btn {
+   font-family: "Kode Mono", monospace;
+   color: #014421;
+   border: 1px solid #d9d8c3;
+   border-radius: 5px; 
+   width: 50px;
+   height: 30px;
+   margin: 10px;
+}
+
+#copy-btn:hover {
+   border: 1px solid #9b9a8b;
+}
+
